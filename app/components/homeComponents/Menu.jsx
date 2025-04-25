@@ -15,7 +15,7 @@ const menuItems = [
     {
         id: 1,
         title: "Mediterranean Delight",
-        price: "$9.49",
+        price: "₹449",
         description:
             "Grilled chicken, hummus, feta cheese, olives, cucumber, tomatoes, and tzatziki sauce in a spinach wrap.",
         prepTime: "5 min",
@@ -28,7 +28,7 @@ const menuItems = [
     {
         id: 2,
         title: "Grilled Chicken Avocado",
-        price: "$10.99",
+        price: "₹459",
         description:
             "Grilled chicken breast, avocado, bacon, lettuce, tomato and ranch dressing in a whole wheat wrap.",
         prepTime: "6 min",
@@ -39,7 +39,7 @@ const menuItems = [
     {
         id: 3,
         title: "Veggie Delight",
-        price: "$8.49",
+        price: "₹389",
         description:
             "Roasted vegetables, hummus, avocado, mixed greens, and balsamic glaze in a spinach wrap.",
         prepTime: "4 min",
@@ -49,6 +49,77 @@ const menuItems = [
         tag: "Vegan",
         tagColor: "#16a34a",
     },
+    {
+        id: 4,
+        title: "Spicy Chicken",
+        price: "₹449",
+        description:
+            "Crispy chicken, blue cheese dressing, lettuce, and diced celery in a tomato wrap.",
+        prepTime: "5 min",
+        serves: 1,
+        category: "signature",
+        image: "./Wrapsta - Delicious Fresh Rolls &amp; Wraps _ Order Online_files/photo-1603046891744-1f76eb10aec7",
+        tag: null,
+    },
+    {
+        id: 5,
+        title: "Grilled Chicken & Cheese",
+        price: "₹399",
+        description:
+            "Grilled chicken, melted provolone, sautéed peppers and onions, with chipotle mayo in a flour wrap.",
+        prepTime: "7 min",
+        serves: 1,
+        category: "protein",
+        image: "./Wrapsta - Delicious Fresh Rolls &amp; Wraps _ Order Online_files/photo-1588167783966-3ce5d0c67f3f",
+        tag: null,
+    },
+    {
+        id: 6,
+        title: "Lamb Wrap",
+        price: "₹319",
+        description:
+            "Grilled lamb, fresh veggies, hummus, tahini sauce, cucumber, tomatoes, and pickled turnips in a whole wheat wrap.",
+        prepTime: "6 min",
+        serves: 1,
+        category: "protein",
+        image: "./Wrapsta - Delicious Fresh Rolls &amp; Wraps _ Order Online_files/photo-1615870216519-2f9fa575fa5c",
+        tag: null,
+    },
+
+    // {
+    //     id: 7,
+    //     title: "Pork and Apple Wrap",
+    //     price: "$9.49",
+    //     description: "Tender pork, caramelized apples, and savory mustard sauce in a soft roll wrap.",
+    //     prepTime: "6 min",
+    //     serves: 1,
+    //     category: "protein",
+    //     image: "./Wrapsta - Delicious Fresh Rolls &amp; Wraps _ Order Online_files/photo-1588167783966-3ce5d0c67f3f",
+    //     tag: null,
+    //   },
+    //   {
+    //     id: 8,
+    //     title: "Fish Tacos Wrap",
+    //     price: "$10.49",
+    //     description: "Grilled white fish, cabbage slaw, cilantro, and spicy mayo wrapped in a tortilla.",
+    //     prepTime: "7 min",
+    //     serves: 1,
+    //     category: "protein",
+    //     image: "./Wrapsta - Delicious Fresh Rolls &amp; Wraps _ Order Online_files/photo-1603046891744-1f76eb10aec7",
+    //     tag: null,
+    //   },
+    //   {
+    //     id: 9,
+    //     title: "Falafel Wrap",
+    //     price: "$8.99",
+    //     description: "Crispy falafel, hummus, tahini sauce, cucumber, tomatoes, and pickled turnips in a whole wheat wrap.",
+    //     prepTime: "5 min",
+    //     serves: 1,
+    //     category: "vegetarian",
+    //     image: "./Wrapsta - Delicious Fresh Rolls &amp; Wraps _ Order Online_files/photo-1615870216519-2f9fa575fa5c",
+    //     tag: "Vegan",
+    //     tagColor: "green-600",
+    //   },
 ];
 
 const Menu = () => {

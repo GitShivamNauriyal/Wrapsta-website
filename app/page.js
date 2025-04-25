@@ -4,6 +4,7 @@ import React from "react";
 import Head from "next/head";
 import Hero from "./components/homeComponents/Hero";
 import About from "./components/homeComponents/About";
+import Menu from "./components/homeComponents/Menu";
 
 <Head>
     <title>Wrapsta - Delicious Rolls & Wraps</title>
@@ -24,6 +25,7 @@ const page = () => {
             <div className="pt-16 flex flex-col items-center justify-center min-h-screen">
                 <Hero />
                 <About />
+                <Menu />
                 <h1 className="mb-64">home</h1>
                 <h1 className="mb-64">home</h1>
                 <h1 className="mb-64">home</h1>
