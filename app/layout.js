@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Navbar from "@/app/components/commonComponents/navbar";
+import Navbar from "@/app/components/commonComponents/Navbar";
+import Footer from "@/app/components/commonComponents/Footer";
 import "./globals.css";
-import Footer from "./components/commonComponents/footer";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
