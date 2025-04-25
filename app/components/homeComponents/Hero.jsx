@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div id="root">
             <section
-                id="hero"
+                id="home"
                 className="pt-8 pb-16 md:pt-10 md:pb-16 bg-[#F2E8CF]"
             >
                 <div className="container mx-auto px-8">

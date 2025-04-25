@@ -78,8 +78,8 @@ const Navbar = () => {
                         <ul className="flex space-x-8">
                             {[
                                 "Home",
-                                "Menu",
                                 "About",
+                                "Menu",
                                 "Special Offers",
                                 "Customize",
                                 "Testimonials",
@@ -142,7 +142,7 @@ const Navbar = () => {
                                     href={`#${label
                                         .toLowerCase()
                                         .replace(/\s/g, "-")}`}
-                                    className="font-Nunito block text-neutral-700 hover:text-[#5D7052] transition-colors duration-300"
+                                    className="font-Nunito block text-neutral-800 hover:text-[#5D7052] transition-all duration-300"
                                 >
                                     {label}
                                 </a>
