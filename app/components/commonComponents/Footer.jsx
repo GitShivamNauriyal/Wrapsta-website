@@ -72,7 +72,7 @@ export default function Footer() {
                             <p className="text-neutral-100 mb-4">
                                 Fresh, delicious wraps and rolls made with
                                 quality ingredients. Bringing flavor-packed
-                                meals to your table since 2018.
+                                meals to your table since 20xx
                             </p>
                         </div>
                         <div className="flex space-x-4">
@@ -82,7 +82,7 @@ export default function Footer() {
                                 aria-label="Facebook"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-full transition-all"
+                                className="bg-white hover:scale-110 p-2 rounded-full transition-all"
                             >
                                 <GrFacebookOption className="text-xl text-[#5D7052]" />
                             </a>
@@ -92,7 +92,7 @@ export default function Footer() {
                                 aria-label="Instagram"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-full transition-all"
+                                className="bg-white hover:scale-110 p-2 rounded-full transition-all"
                             >
                                 <GrInstagram className="text-xl text-[#5D7052]" />
                             </a>
@@ -101,7 +101,7 @@ export default function Footer() {
                                 aria-label="X"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-full transition-all"
+                                className="bg-white hover:scale-110 p-2 rounded-full transition-all"
                             >
                                 <PiXLogo className="text-xl text-[#5D7052]" />
                             </a>
@@ -110,7 +110,7 @@ export default function Footer() {
                                 aria-label="YouTube"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-full transition-all"
+                                className="bg-white hover:scale-110 p-2 rounded-full transition-all"
                             >
                                 <GrYoutube className="text-xl text-[#5D7052]" />
                             </a>
@@ -225,8 +225,8 @@ export default function Footer() {
                             Stay Updated
                         </h3>
                         <p className="text-neutral-100 mb-4">
-                            Sign up for our newsletter to get the latest offers
-                            and updates.
+                            Subscribe to our newsletter for the latest menu
+                            updates, exclusive offers, and more!
                         </p>
                         <form className="flex flex-col sm:flex-row gap-2">
                             <input
@@ -244,9 +244,36 @@ export default function Footer() {
                     </div>
                 </div>
 
+                {/* <!-- Horizontal Line --> */}
+                <div className="h-px bg-white bg-opacity-20 mb-8"></div>
+
                 {/* <!-- Footer Bottom --> */}
-                <div className="border-t border-white border-opacity-20 pt-4 text-center text-sm text-neutral-200">
-                    &copy; 2025 Wrapsta. All rights reserved.
+                <div className="flex flex-col md:flex-row justify-between items-center">
+                    <div className="mb-4 md:mb-0">
+                        <p className="text-neutral-100">
+                            © 2025 Wrapsta. All rights reserved.
+                        </p>
+                    </div>
+                    <div className="flex space-x-6">
+                        <a
+                            href="https://wrapstatc8a.rollout.site/privacy"
+                            className="text-neutral-100 hover:text-white hover:underline transition-colors"
+                        >
+                            Privacy Policy
+                        </a>
+                        <a
+                            href="https://wrapstatc8a.rollout.site/terms"
+                            className="text-neutral-100 hover:text-white hover:underline transition-colors"
+                        >
+                            Terms of Service
+                        </a>
+                        <a
+                            href="https://wrapstatc8a.rollout.site/#"
+                            className="text-neutral-100 hover:text-white hover:underline transition-colors"
+                        >
+                            Sitemap
+                        </a>
+                    </div>
                 </div>
             </div>
             {/* scroll to top button */}
@@ -257,15 +284,15 @@ export default function Footer() {
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    className="h-6 w-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
                 >
                     <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
                         d="M5 15l7-7 7 7"
                     ></path>
                 </svg>

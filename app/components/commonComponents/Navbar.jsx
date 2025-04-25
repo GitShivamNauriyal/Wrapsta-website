@@ -64,7 +64,7 @@ const Navbar = () => {
             ref={headerRef}
             className="fixed w-full top-0 z-50 bg-white shadow-sm"
         >
-            <div className="container mx-auto px-4 py-4">
+            <div className="container mx-auto px-6 py-4">
                 <div className="flex items-center justify-between">
                     <a
                         href="#hero"
@@ -78,8 +78,8 @@ const Navbar = () => {
                         <ul className="flex space-x-8">
                             {[
                                 "Home",
-                                "About",
                                 "Menu",
+                                "About",
                                 "Special Offers",
                                 "Customize",
                                 "Testimonials",
