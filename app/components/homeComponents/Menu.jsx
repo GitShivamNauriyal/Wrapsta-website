@@ -253,7 +253,7 @@ const Menu = () => {
                             .map((item) => (
                                 <motion.div
                                     key={item.id}
-                                    className="menu-item bg-white rounded-lg overflow-hidden shadow-sm border border-neutral-200 transition-transform hover:shadow-md hover:-translate-y-1"
+                                    className="menu-item bg-white rounded-lg overflow-hidden shadow-sm border border-neutral-200 transition-all duration-300 hover:shadow-md hover:-translate-y-1"
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                     exit={{ opacity: 0 }}
@@ -263,7 +263,7 @@ const Menu = () => {
                                         <img
                                             src={item.image}
                                             alt={item.title}
-                                            className="w-full h-full object-cover transition-transform hover:scale-110"
+                                            className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                                         />
                                         {item.tag && (
                                             <div

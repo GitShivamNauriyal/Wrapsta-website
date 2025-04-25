@@ -26,9 +26,6 @@ const page = () => {
                 <Hero />
                 <About />
                 <Menu />
-                <h1 className="mb-64">home</h1>
-                <h1 className="mb-64">home</h1>
-                <h1 className="mb-64">home</h1>
             </div>
         </div>
     );
